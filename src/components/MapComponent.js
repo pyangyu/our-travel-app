@@ -16,7 +16,7 @@ export default function MapComponent() {
   return (
     <div className="main-container">
       <div className="map-container">
-        <img src="/assets/us-map.png" alt="US Map showing various travel locations" className="map-image" />
+        <img src="assets/us-map.png" alt="US Map showing various travel locations" className="map-image" />
         <PushPinComponent 
           className="pushpin pushpin-illinois" 
           name="Illinois" 
