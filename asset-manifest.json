@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/our-travel-app/static/css/main.e00042fe.css",
+    "main.css": "/our-travel-app/static/css/main.671dc183.css",
     "main.js": "/our-travel-app/static/js/main.2a3a4347.js",
     "static/js/453.a875498e.chunk.js": "/our-travel-app/static/js/453.a875498e.chunk.js",
     "static/media/IMG_1626.jpg": "/our-travel-app/static/media/IMG_1626.3ac19ca33a77269138ee.jpg",
@@ -77,12 +77,12 @@
     "static/media/IMG_6215.jpg": "/our-travel-app/static/media/IMG_6215.8dbef71c60b38212a0cd.jpg",
     "static/media/IMG_6218.jpg": "/our-travel-app/static/media/IMG_6218.4769c23d4eb139e5ef98.jpg",
     "index.html": "/our-travel-app/index.html",
-    "main.e00042fe.css.map": "/our-travel-app/static/css/main.e00042fe.css.map",
+    "main.671dc183.css.map": "/our-travel-app/static/css/main.671dc183.css.map",
     "main.2a3a4347.js.map": "/our-travel-app/static/js/main.2a3a4347.js.map",
     "453.a875498e.chunk.js.map": "/our-travel-app/static/js/453.a875498e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e00042fe.css",
+    "static/css/main.671dc183.css",
     "static/js/main.2a3a4347.js"
   ]
 }
