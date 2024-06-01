@@ -4,6 +4,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  border: 0;
   min-height: 100%; /* change height to min-height */
 }
 
@@ -23,23 +24,23 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg') no-repeat center center/cover;
+  background: rgba(217, 238, 238, 0.955) /* url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg') no-repeat center center/cover */;
   opacity: 0.8;
   z-index: -1; /* Ensure the background is behind all content */
 }
 
-svg {
+/* svg {
   font-weight: bold;
   max-width: 600px;
   height: auto;
-}
+} */
 
 .hidden {
   opacity: 0;
 }
 
 .App-header {
-  background-color: rgba(0, 0, 0, 0.9); /* Updated opacity */
+  background-color: rgba(117, 35, 35, 0.9); /* Updated opacity */
   padding: 10px 20px;
   margin-bottom: 20px;
   display: flex;
@@ -53,47 +54,13 @@ svg {
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 3em; /* Adjusted font size */
   text-align: center;
-  color: rgb(212, 161, 161); /* Changed text color to red */
+  color: rgb(207, 182, 182); /* Changed text color to red */
 }
 
-.console-underscore {
+/* .console-underscore {
   display: inline-block;
   position: relative;
   top: -0.14em;
   left: 10px;
-}
+} */
 
-.album-container {
-  text-align: center;
-  padding-bottom: 20px; /* Add some padding to ensure space at the bottom */
-}
-
-.location-text {
-  font-family: 'Cabin Condensed', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.album-gallery {
-  column-count: 5; /* Five columns */
-  column-gap: 15px; /* Gap between columns */
-}
-
-.photo-frame {
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
-
-.album-image {
-  max-width: 100%;
-  height: auto;
-  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.2);
-  display: block;
-}

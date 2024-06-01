@@ -16,19 +16,19 @@
 
 
 .push-pin-button.active .push-pin-image {
-  transform: scale(1.5);
+  transform: scale(1.2) translateY(0.12rem);
 }
 
 
 .push-pin-button::after {
   content: '';
   position: absolute;
-  bottom: -0.5rem; /* Position the line slightly below the pin */
+  bottom: -0.3rem; /* Position the line slightly below the pin */
   left: 50%;
   transform: translateX(-50%);
   width: 0; /* Start with zero width */
-  height: 0.2em; /* Thickness of the line */
-  background-color: #e20808; /* Color of the line */
+  height: 0.15em; /* Thickness of the line */
+  background-color: #8f0d0d; /* Color of the line */
   transition: width 0.8s; /* Animation for the width */
 }
 

@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import MapComponent from './components/MapComponent';
+import usMapImage from './us-map.png'; // Directly import the image
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         </div>
       </header>
       <main>
-        <MapComponent />
+        <MapComponent usMapImage={usMapImage} />
       </main>
     </div>
   );

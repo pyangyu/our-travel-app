@@ -4,7 +4,7 @@ import './MapComponent.css';
 import PushPinComponent from './PushPinComponent';
 import Album from './Album';
 
-export default function MapComponent() {
+export default function MapComponent({ usMapImage }) {
   const [currentLocation, setCurrentLocation] = useState("");
   const [activePin, setActivePin] = useState("");
 
@@ -16,7 +16,7 @@ export default function MapComponent() {
   return (
     <div className="main-container">
       <div className="map-container">
-        <img src="assets/us-map.png" alt="US Map showing various travel locations" className="map-image" />
+        <img src={usMapImage} alt="US Map showing various travel locations" className="map-image" />
         <PushPinComponent 
           className="pushpin pushpin-illinois" 
           name="Illinois" 

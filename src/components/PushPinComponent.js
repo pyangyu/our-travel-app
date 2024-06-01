@@ -1,5 +1,7 @@
 // src/components/PushPinComponent.js
 import React from 'react';
+import pushpinImage from './round-pushpin.png'; // Default pushpin image
+import couplePinImage from './couple-pushpin.png'; // Active pushpin image
 import './PushPinComponent.css';
 
 export default function PushPinComponent({ className, name, onClick, isActive }) {
@@ -13,7 +15,7 @@ export default function PushPinComponent({ className, name, onClick, isActive })
         onClick={handleClick}
         className={`push-pin-button ${className} ${isActive ? 'active' : ''}`}
       >
-        <img src="assets/round-pushpin.png" alt="Push Pin" className="push-pin-image" />
+        <img src={isActive ? couplePinImage : pushpinImage} alt="Push Pin" className="push-pin-image" />
       </button>
       {isActive && <div className="pin-dot"></div>}
     </div>
