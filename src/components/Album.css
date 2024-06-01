@@ -40,7 +40,7 @@
   background-color: rgb(248, 212, 212);
   box-shadow: 0 5px 9px rgba(174, 2, 2, 0.2);
   margin-bottom: 10px;
-  padding: 2%; /* Padding as a percentage of the image size */
+  padding: 4%; /* Padding as a percentage of the image size */
   box-sizing: border-box;
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -57,11 +57,11 @@
 /* Responsive adjustments for smaller screens */
 @media (max-width: 700px) {
   .album-gallery {
-    column-count: 2; /* Two columns for smaller screens */
+    column-count: 3; /* Two columns for smaller screens */
     padding-left: 0;
   }
 
   .photo-frame {
-    padding: 5px; /* Reduce padding for smaller screens */
+    padding: 2%; /* Reduce padding for smaller screens */
   }
 }
